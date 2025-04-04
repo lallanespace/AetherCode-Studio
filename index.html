@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AetherCode Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+                
+            position: relative;
+            background-color: #0a0a0a;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #0a0a0a;
+        }
+
+        .navbar-toggler {
+                border-color: #937933;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23937933' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .justify-text {
+            text-align: justify;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand" href="#home">
+                <img class="ms-5" src="images/logoname.png" alt="AetherCode Studio Logo" style="height: 100px;">
+            </a>
+            <!--Toggler Button-->
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--NavBar Links-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#home" style="color: #B99A45"
+                        onmouseover="this.style.color='#faf1d9'"
+                        onmouseout="this.style.color='#b99a45'">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#about" style="color: #B99A45"
+                        onmouseover="this.style.color='#faf1d9'"
+                        onmouseout="this.style.color='#B99A45'">About Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#services" style="color: #B99A45"
+                        onmouseover="this.style.color='#faf1d9'"
+                        onmouseout="this.style.color='#B99A45'">Services</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#contact" style="color: #B99A45"
+                        onmouseover="this.style.color='#faf1d9'"
+                        onmouseout="this.style.color='#B99A45'">Contact Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#developer" style="color: #B99A45"
+                        onmouseover="this.style.color='#faf1d9'"
+                        onmouseout="this.style.color='#b99a45'">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Landing Page-->
+    <section class="d-flex align-items-center justify-content-center vh-100 text-center">
+        <div style="color:#B99A45;">
+            <h1 class="display-4 fw-bold">AetherCode Studio</h1>
+            <p class="lead">Code the Future, Design the Cosmos</p>
+            <button class="btn btn-sm rounded-4 mx-auto d-block w-25" style="background-color: #0a0a0a; border-color: #97692f; color: #B99A45;"
+            onmouseover="this.style.backgroundColor='#B99A45'; this.style.color='#0a0a0a'"
+            onmouseout="this.style.backgroundColor='#0a0a0a'; this.style.color='#B99A45'"
+            onclick="location.href='#home'">Start Exploring!</button>
+        </div>
+    </section>
+
+    <!--Home-->
+    <section id="home" class="container-fluid vh-75 pt-6 pb-5 px-5 py-5 text-center" style="color: #faf1d9; background-color:#1e1e1d5e;">
+        <h2 class="display-5 fw-semibold pb-4" style="color: #B99A45;">Elevate Your Web Design To Cosmic Heights<br>With AetherCode Studio</h2>
+        <p class="justify-text mx-auto w-75">At AetherCode Studio, we take pride in crafting unique and creative web designs that make your brand stand out from the competition. Our passion for innovation drives us to push the boundaries of web development, blending artistic vision with the latest technologies. We understand that a website is more than just an online presence—it’s an extension of your brand identity and a powerful tool to connect with your audience.
+            <br><br>Our team of experienced designers brings together technical expertise and creative insight to build websites that not only look stunning but also deliver measurable results. From responsive layouts to interactive features, we ensure that every detail enhances the user experience and aligns with your brand’s goals. Our commitment to excellence means we continuously refine our process to meet the evolving demands of the digital landscape.
+            <br><br>Whether you're a small business aiming to make a mark or a large corporation looking to revitalize your online presence, AetherCode Studio has the skills and creativity to turn your ideas into reality. We work closely with you to understand your vision and deliver a solution that captures your essence while maximizing impact. Let us help you innovate beyond limits and elevate your brand to new heights.
+        </p>
+    </section>
+
+    <!--About Us-->
+    <section id="about" class="container-fluid vh-75 pt-6 pb-5 px-5 py-5 text-center">
+        <h2 class="display-5 fw-semibold pb-4" style="color: #B99A45;">About AetherCode Studio</h2>
+        <p class="justify-text mx-auto w-75" style="color: #B99A45;">AetherCode Studio is a team of passionate and talented individuals dedicated to creating innovative and unique web designs for our clients. With years of experience and a keen eye for design, we constantly push the boundaries of creativity to deliver exceptional results that exceed expectations. Our commitment to quality and originality sets us apart, ensuring that every project we undertake reflects our dedication to excellence.
+            <br><br>We believe that great design has the power to transform businesses and leave a lasting impact. That's why we combine artistic vision with cutting-edge technology to create websites that are not only visually stunning but also highly functional and user-friendly. From small businesses looking to establish their online presence to large corporations needing a website refresh, we tailor our services to meet diverse needs.
+            <br><br>At AetherCode Studio, our goal is to help you stand out in the digital world. We take the time to understand your brand, values, and objectives, crafting designs that truly resonate with your audience. Let us bring your vision to life and empower your business with a powerful online presence.
+        </p>
+    </section>
+
+    <!--Our Services-->
+    <section id="services" class="container pt-3 pb-5 px-5" style="background-color:#1e1e1d5e; padding: auto;">
+        <h2 class="display-5 fw-semibold pt-2 pb-3 text-center" style="color:#faf1d9;">Discover Your Digital Potential<br>With AetherCode Studio</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/design.png" alt="Design">
+                    <h3 class="pt-3 fw-bold">Design</h3>
+                    <p style="color: #B99A45;">We create captivating, futuristic web designs that enhance user experience and leave a lasting impression.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/development.png" alt="Development">
+                    <h3 class="pt-3 fw-bold">Development</h3>
+                    <p style="color: #B99A45;">Our team develops beautiful, functional websites that are intuitive and user-friendly.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/ecommerce.png" alt="E-commerce">
+                    <h3 class="pt-3 fw-bold">E-commerce</h3>
+                    <p style="color: #B99A45;">Selling online? We build e-commerce platforms that boost sales and amplify your brand.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/seo.png" alt="SEO">
+                    <h3 class="pt-3 fw-bold">SEO</h3>
+                    <p style="color: #B99A45;">Struggling for visibility? We implement SEO strategies that help your website thrive and grow.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/branding.png" alt="Branding">
+                    <h3 class="pt-3 fw-bold">Branding</h3>
+                    <p style="color: #B99A45;">Let us shape your brand identity through web design that reflects your mission and values.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/maintenance.png" alt="Maintenance">
+                    <h3 class="pt-3 fw-bold">Maintenance</h3>
+                    <p style="color: #B99A45;">Enjoy peace of mind with our maintenance packages that ensure secure, smooth website operations.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/consultation.png" alt="Consultation">
+                    <h3 class="pt-3 fw-bold">Consultation</h3>
+                    <p style="color: #B99A45;">Ready to elevate your online presence? We offer personalized consultations to guide your strategy.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3" style="color:#faf1d9; background-color:#0a0a0a; border-color: #937933;">
+                    <img src="images/support.png" alt="Support">
+                    <h3 class="pt-3 fw-bold">Support</h3>
+                    <p style="color: #B99A45;">Count on us for ongoing support to keep your website evolving with your business needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!--Contact Us-->
+    <section id="contact" class="container-fluid w-50 pb-5 pt-5" style="color:#B99A45">
+        <h2 class="display-4 fw-semibold text-center">Get In Touch!</h2>
+        <form class="mt-4">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="e.g. John Doe" name="name" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="e.g. sample@mail.com" name="email" required>
+                </div>
+            </div>
+            <div class="mb-3 mt-1">
+                <label for="message"></label>
+                <textarea class="form-control" rows="5" id="message" name="text" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn float-end" style="background-color: #0a0a0a; border-color: #97692f; color: #B99A45"
+                onmouseover="this.style.backgroundColor='#b99a45'; this.style.color='#0a0a0a'"
+                onmouseout="this.style.backgroundColor='#0a0a0a'; this.style.color='#b99a45'">
+                    Submit
+            </button>
+            <br><br>
+        </form>
+    </section>
+
+    <!--About the Developer-->
+    <section id="developer" class="container-fluid w-75" style="color: #faf1d9; background-color:#1e1e1d5e; padding: 50px;">
+        <h2 class="display-5 fw-semibold" style="color: #B99A45;">About the Developer</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="images/developer.jpeg" alt="Profile Image" class="img-fluid" style="height: 100%; border-radius: 8px;">
+            </div>
+            <div class="col-md-8">
+                <p class="pt-3 pb-3 justify-text">
+                    My name is Princess Lallane F. Gablanca, an Information Technology student at ICAS, currently in my 2nd year.
+                    I'm passionate about web designing and dedicated to performing my work with creativity.
+                    I continually acquire skills in crafting innovative and visually appealing designs.
+                </p>
+                <div class="row g-2 p-3" style="background-color: #1e1e1d5e; border: 1px solid #937933; border-radius:8px; margin: top 20px;">
+                    <div class="col">
+                        <p style="color: #937933;"><strong>Name:</strong> <span style="color: #faf1d9;">Princess Lallane F. Gablanca</span></p>
+                        <p style="color: #937933;"><strong>Age:</strong> <span style="color: #faf1d9;">20 yrs old</span></p>
+                        <p style="color: #937933;"><strong>Contact No.:</strong> <span style="color: #faf1d9;">+63 123 456 789</span></p>
+                        <p style="color: #937933;"><strong>Address:</strong> <span style="color: #faf1d9;">Paranaque, Philippines</span></p>
+                    </div>
+                    <div class="col">
+                        <p style="color: #937933;"><strong>Education:</strong> <span style="color: #faf1d9;">2nd Year Information Technology Student at ICAS</span></p>
+                        <p style="color: #937933;"><strong>Skills:</strong> <span style="color: #faf1d9;">Web Designing, Creative Design, Front-End Development</span></p>
+                        <p style="color: #937933;"><strong>Languages:</strong> <span style="color: #faf1d9;">English, Filipino</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!--Footer-->
+    <footer class="text-center py-3" style="background-color:#0a0a0a; color:#faf1d9">
+        <span style="color: #937933;">© 2025 AetherCode Studio.</span> All rights reserved.
+    </footer>
+</body>
+</html>
